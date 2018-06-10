@@ -1,8 +1,12 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class Welcome extends CI_Controller {
+class Welcome extends MY_Controller {
 
+	function __construct()
+	{
+		parent::__construct();
+	}
 	/**
 	 * Index Page for this controller.
 	 *
@@ -20,6 +24,13 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('welcome_message');
+		$data = array(
+			'message' => 'Welcome to',
+			'emphasis' => 'Samyras Beauty Care',
+			'name'    => 'System'
+		);
+
+
+		$this->build_website('index', $data);
 	}
 }
