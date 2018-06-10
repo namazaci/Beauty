@@ -28,11 +28,11 @@
 </footer>
 <!-- / footer -->
 
-<script src="<?=base_url('js/jquery.min.js');?>"></script>
-<script src="<?=base_url('js/jquery.easing.min.js');?>"></script>
-<script src="<?=base_url('js/bootstrap.min.js');?>"></script>
-<script src="<?=base_url('js/custom.js');?>"></script>
-<script src="<?=base_url('contactform/contactform.js');?>"></script>
+<script src="<?=base_url('vendor/bootstrap/js/jquery.min.js');?>"></script>
+<script src="<?=base_url('vendor/bootstrap/js/jquery.easing.min.js');?>"></script>
+<script src="<?=base_url('vendor/bootstrap/js/bootstrap.min.js');?>"></script>
+<script src="<?=base_url('vendor/bootstrap/js/custom.js');?>"></script>
+<script src="<?=base_url('vendor/contactform/contactform.js');?>"></script>
 
 </body>
 
